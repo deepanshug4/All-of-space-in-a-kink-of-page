@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+
+
+<SCRIPT language=JavaScript>
+//function win(){
+
+//window.opener.location.href="middle.html";
+
+//self.close();
+//}
+</SCRIPT>
+</head>
+<body bgcolor="#D8BFD8	">
+
+<form action="register.php" method="POST">
+	<img src="side jpg.jpg" align="right" height="100%" width="50px" >
+
+ <b>
+  First name:<br>
+  <input type="text" name="firstname" placeholder= "enter the first name" required>
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" placeholder="enter the second name" required>
+  <br>
+
+  Phone number:<br>
+   <input type="text" name="pnumber" placeholder ="enter the phone number" required>
+ <br><br>
+ Gender: <div>   <input type="radio" name="gender" value="male" checked required> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other</div>
+<br>
+Email Id:<br>
+   <input type="text" name="email" placeholder ="enter the mail address" required>
+   <br>
+  
+  User Id :<br> <input type = "text" name = "user_id" required>
+         <br>
+         Password:<br> <input type = "password" name = "password" required>
+         <br>	Security Question:<br>
+ <select name = "squestion" required>
+ 
+            <option value = "Mname" selected>What is your mother's name.</option>
+            <option value = "Fcolor">What is your favorite color.</option>
+            <option value = "Pname">What is your pet name.</option>
+            <option value = "sname">What is your first school name.</option>
+         </select>
+         <br>
+          <input type="text" name="sanswer" value="" required></b>
+          <br>
+   
+
+  <input type=submit  value="Submit">
+
+</form>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
